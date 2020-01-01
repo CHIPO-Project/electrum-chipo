@@ -13,6 +13,10 @@ LIBUSB_FILENAME=libusb-1.0.22.7z
 LIBUSB_URL=https://prdownloads.sourceforge.net/project/libusb/libusb-1.0/libusb-1.0.22/$LIBUSB_FILENAME?download
 LIBUSB_SHA256=671f1a420757b4480e7fadc8313d6fb3cbb75ca00934c417c1efa6e77fb8779b
 
+SKEIN_HASH_FILENAME=skein_hash-1.1-cp36-cp36m-win32.whl
+SKEIN_HASH_PYTHON_URL=https://test-files.pythonhosted.org/packages/1f/52/ca25dc7198f98c11fe59ac543c178dea1c40a5e688b41edf8b58a103b330/$SKEIN_HASH_FILENAME
+SKEIN_HASH_SHA256=c809e07e8b4361238ce318a70ab59687848d1f00d88cf70c8c8d6821d630acb2
+
 PYINSTALLER_REPO="https://github.com/SomberNight/pyinstaller.git"
 PYINSTALLER_COMMIT=d1cdd726d6a9edc70150d5302453fb90fdd09bf2
 # ^ tag 3.4, plus a custom commit that fixes cross-compilation with MinGW
@@ -75,6 +79,9 @@ download_if_not_exist "$CACHEDIR/$LIBUSB_FILENAME" "$LIBUSB_URL"
 verify_hash "$CACHEDIR/$LIBUSB_FILENAME" "$LIBUSB_SHA256"
 7z x -olibusb "$CACHEDIR/$LIBUSB_FILENAME" -aoa
 cp libusb/MS32/dll/libusb-1.0.dll $WINEPREFIX/drive_c/$PYTHON_FOLDER/
+
+# install skein_hash
+$PYTHON -m pip install $SKEIN_HASH_PYTHON_URL
 
 mkdir -p $WINEPREFIX/drive_c/tmp
 cp "$CACHEDIR/secp256k1/libsecp256k1.dll" $WINEPREFIX/drive_c/tmp/
