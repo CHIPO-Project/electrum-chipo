@@ -59,7 +59,7 @@ Development version
 
 Check out the code from GitHub::
 
-    git clone git://github.com/chipo/electrum-fjc.git
+    git clone git://github.com/CHIPO-Project/electrum-chipo.git
     cd electrum
 
 Run install (this should install dependencies)::

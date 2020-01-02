@@ -3,7 +3,7 @@
 
 [Desktop Entry]
 Comment=Lightweight Chipo Client
-Exec=sh -c "PATH=\"\\$HOME/.local/bin:\\$PATH\"; electrum-icu %u"
+Exec=sh -c "PATH=\"\\$HOME/.local/bin:\\$PATH\"; electrum-chipo %u"
 GenericName[en_US]=Chipo Wallet
 GenericName=Chipo Wallet
 Icon=electrum
@@ -18,5 +18,5 @@ MimeType=x-scheme-handler/chipo;
 Actions=Testnet;
 
 [Desktop Action Testnet]
-Exec=sh -c "PATH=\"\\$HOME/.local/bin:\\$PATH\"; electrum-icu --testnet %u"
+Exec=sh -c "PATH=\"\\$HOME/.local/bin:\\$PATH\"; electrum-chipo --testnet %u"
 Name=Testnet mode
