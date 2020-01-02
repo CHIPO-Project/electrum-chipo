@@ -81,6 +81,7 @@ verify_hash "$CACHEDIR/$LIBUSB_FILENAME" "$LIBUSB_SHA256"
 cp libusb/MS32/dll/libusb-1.0.dll $WINEPREFIX/drive_c/$PYTHON_FOLDER/
 
 # install skein_hash
+info "Installing skein_hash."
 $PYTHON -m pip install $SKEIN_HASH_PYTHON_URL
 
 mkdir -p $WINEPREFIX/drive_c/tmp
