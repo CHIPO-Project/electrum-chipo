@@ -13,9 +13,9 @@ LIBUSB_FILENAME=libusb-1.0.22.7z
 LIBUSB_URL=https://prdownloads.sourceforge.net/project/libusb/libusb-1.0/libusb-1.0.22/$LIBUSB_FILENAME?download
 LIBUSB_SHA256=671f1a420757b4480e7fadc8313d6fb3cbb75ca00934c417c1efa6e77fb8779b
 
-SKEIN_HASH_FILENAME=skein_hash-1.1-cp36-cp36m-win32.whl
-SKEIN_HASH_PYTHON_URL=https://test-files.pythonhosted.org/packages/1f/52/ca25dc7198f98c11fe59ac543c178dea1c40a5e688b41edf8b58a103b330/$SKEIN_HASH_FILENAME
-SKEIN_HASH_SHA256=c809e07e8b4361238ce318a70ab59687848d1f00d88cf70c8c8d6821d630acb2
+SKEIN_HASH_FILENAME=coin_skein_hash-1.1-cp36-cp36m-win32.whl 
+SKEIN_HASH_PYTHON_URL=https://files.pythonhosted.org/packages/6b/be/9272a6627c570948ca68205700f481ffe62dab7907508e4fb35c3d3b2276/coin_skein_hash-1.1-cp36-cp36m-win32.whl
+SKEIN_HASH_SHA256=c8e4dd4a8e052535282ef6fbf95a75df619faead64ec39d3259a50162f921a02
 
 PYINSTALLER_REPO="https://github.com/SomberNight/pyinstaller.git"
 PYINSTALLER_COMMIT=d1cdd726d6a9edc70150d5302453fb90fdd09bf2
