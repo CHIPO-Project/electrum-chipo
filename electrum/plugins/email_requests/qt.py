@@ -114,7 +114,7 @@ class Processor(threading.Thread, Logger):
         part = MIMEBase('application', "chipo-paymentrequest")
         part.set_payload(payment_request)
         encode_base64(part)
-        part.add_header('Content-Disposition', 'attachment; filename="payreq.fjc"')
+        part.add_header('Content-Disposition', 'attachment; filename="payreq.chipo"')
         msg.attach(part)
         try:
             s = smtplib.SMTP_SSL(self.imap_server, timeout=2)
