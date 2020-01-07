@@ -1,5 +1,6 @@
 safet[hidapi]>=0.1.0
-keepkey>=6.0.3
+-e git+https://github.com/CHIPO-Project/python-keepkey.git#egg=keepkey-master
+-e git+https://github.com/CHIPO-Project/python-trezor.git#egg=trezor-master
 btchip-python>=0.1.26
 ckcc-protocol>=0.7.2
 websocket-client
