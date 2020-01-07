@@ -13,9 +13,12 @@ LIBUSB_FILENAME=libusb-1.0.22.7z
 LIBUSB_URL=https://prdownloads.sourceforge.net/project/libusb/libusb-1.0/libusb-1.0.22/$LIBUSB_FILENAME?download
 LIBUSB_SHA256=671f1a420757b4480e7fadc8313d6fb3cbb75ca00934c417c1efa6e77fb8779b
 
-SKEIN_HASH_FILENAME=coin_skein_hash-1.1-cp36-cp36m-win32.whl 
-SKEIN_HASH_PYTHON_URL=https://files.pythonhosted.org/packages/6b/be/9272a6627c570948ca68205700f481ffe62dab7907508e4fb35c3d3b2276/coin_skein_hash-1.1-cp36-cp36m-win32.whl
-SKEIN_HASH_SHA256=c8e4dd4a8e052535282ef6fbf95a75df619faead64ec39d3259a50162f921a02
+#SKEIN_HASH_FILENAME=coin_skein_hash-1.1-cp36-cp36m-win32.whl 
+#SKEIN_HASH_PYTHON_URL=https://files.pythonhosted.org/packages/6b/be/9272a6627c570948ca68205700f481ffe62dab7907508e4fb35c3d3b2276/coin_skein_hash-1.1-cp36-cp36m-win32.whl
+#SKEIN_HASH_SHA256=c8e4dd4a8e052535282ef6fbf95a75df619faead64ec39d3259a50162f921a02
+SKEIN_HASH_FILENAME=coin_skein_hash-1.1-cp36-cp36m-win_amd64.whl
+SKEIN_HASH_PYTHON_URL=https://files.pythonhosted.org/packages/f4/d0/f35bc5e28d38f1ee2be1a14fe101ee8bcec7c2cc59bf105634f664cb8d9f/coin_skein_hash-1.1-cp36-cp36m-win_amd64.whl
+SKEIN_HASH_SHA256=a7b8c4ef6fb60c1ff617992ad6d19ea093440daeb73059df239f977bfaea6ed5
 
 PYINSTALLER_REPO="https://github.com/SomberNight/pyinstaller.git"
 PYINSTALLER_COMMIT=d1cdd726d6a9edc70150d5302453fb90fdd09bf2
